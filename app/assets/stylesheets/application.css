@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+    color: pink;
+}
+html{
+    font-family: sans-serif;
+}
+body {
+    background-color: grey;
+    background-image: url("effiel.jpg");
+    background-size: cover;
+}
+ul {
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-left: 100px
+    
+}
+.pomodoro-estimate{
+    font-weight:bold;
+    color: pink;
+    background-color: white;
+
+}
+a{
+    color:white
+    ;
+}
