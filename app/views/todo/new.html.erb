@@ -1,1 +1,8 @@
 <h1>Add a Todo</h1>
+        <form action="/todo/create" method="post">
+         <%= hidden_field_tag :authenticity_token, form_authenticity_token -%>   
+           <input type="text" name="description" placeholder="add a new todo...">
+           <input type="number" name="pomodoro_estimate" placeholder="pomodoro estimate...">
+           <input id="add-new-todo-button" type="submit" value="add todo">
+        </form>
+        <a href="index.html">Back </a>
